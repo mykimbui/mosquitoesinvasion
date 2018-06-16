@@ -11,56 +11,65 @@
   <script src="js/disappear.js"></script>
   <script src="js/timer.js"></script>
   <script src="js/verify.js"></script>
-  <!-- Hotjar Tracking Code for http://against-malaria.pagedemo.co/ -->
+  <!-- Hotjar Tracking Code for https://mosquitoesinvasion.netlify.com/ -->
   <script>
     (function(h,o,t,j,a,r){
       h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:918453,hjsv:6};
+      h._hjSettings={hjid:918509,hjsv:6};
       a=o.getElementsByTagName('head')[0];
       r=o.createElement('script');r.async=1;
       r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
       a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
   </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120909574-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120909574-2');
+  </script>
 </head>
 <body>
-    <div id="container">
-      <p id="time_left"></p>
-      <div class="title">
-        <div>
-          <h1>Can you kill all the mosquitoes?</h1>
-          <h2>Click on the mosquitoes to pop them</h2>
-        </div>
+  <div id="container">
+    <p id="time_left"></p>
+    <div class="title">
+      <div>
+        <h1>Can you kill all the mosquitoes?</h1>
+        <h2>Click on the mosquitoes to pop them</h2>
       </div>
-        <img src="assets/m1.png" alt="mosquito" class="mosquito a dot">
-        <img src="assets/m2.png" alt="mosquito" class="mosquito b dot">
-        <img src="assets/m3.png" alt="mosquito" class="mosquito c dot">
-        <img src="assets/m4.png" alt="mosquito" class="mosquito d dot">
-        <img src="assets/m5.png" alt="mosquito" class="mosquito e dot">
-        <img src="assets/m1.png" alt="mosquito" class="mosquito f dot">
-        <img src="assets/m2.png" alt="mosquito" class="mosquito g dot">
-        <img src="assets/m3.png" alt="mosquito" class="mosquito h dot">
-        <img src="assets/m4.png" alt="mosquito" class="mosquito i dot">
-        <img src="assets/m5.png" alt="mosquito" class="mosquito j dot">
-        <img src="assets/m1.png" alt="mosquito" class="mosquito k dot">
-        <img src="assets/m2.png" alt="mosquito" class="mosquito l dot">
-        <img src="assets/m3.png" alt="mosquito" class="mosquito m dot">
-        <img src="assets/m4.png" alt="mosquito" class="mosquito n dot">
-        <img src="assets/m5.png" alt="mosquito" class="mosquito o dot">
     </div>
+    <img src="assets/m1.png" alt="mosquito" class="mosquito a dot">
+    <img src="assets/m2.png" alt="mosquito" class="mosquito b dot">
+    <img src="assets/m3.png" alt="mosquito" class="mosquito c dot">
+    <img src="assets/m4.png" alt="mosquito" class="mosquito d dot">
+    <img src="assets/m5.png" alt="mosquito" class="mosquito e dot">
+    <img src="assets/m1.png" alt="mosquito" class="mosquito f dot">
+    <img src="assets/m2.png" alt="mosquito" class="mosquito g dot">
+    <img src="assets/m3.png" alt="mosquito" class="mosquito h dot">
+    <img src="assets/m4.png" alt="mosquito" class="mosquito i dot">
+    <img src="assets/m5.png" alt="mosquito" class="mosquito j dot">
+    <img src="assets/m1.png" alt="mosquito" class="mosquito k dot">
+    <img src="assets/m2.png" alt="mosquito" class="mosquito l dot">
+    <img src="assets/m3.png" alt="mosquito" class="mosquito m dot">
+    <img src="assets/m4.png" alt="mosquito" class="mosquito n dot">
+    <img src="assets/m5.png" alt="mosquito" class="mosquito o dot">
+  </div>
 
-    <div class="message hidden" id="lost">
-      <div class="alert">
-        <div class="over">MALARIA WINS 💀</div>
-      </div>
+  <div class="message hidden" id="lost">
+    <div class="alert">
+      <div class="over">MALARIA WINS 💀</div>
     </div>
+  </div>
 
-    <div class="message hidden" id="win">
-      <div class="alert">
-        <div class="over">CONGRATULATIONS  🎉</div>
-        You killed them all !
-      </div>
+  <div class="message hidden" id="win">
+    <div class="alert">
+      <div class="over">CONGRATULATIONS  🎉</div>
+      You killed them all !
     </div>
+  </div>
 
 </body>
 </html>
