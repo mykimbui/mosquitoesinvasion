@@ -9,6 +9,17 @@
   <script src="js/disappear.js"></script>
   <script src="js/timer.js"></script>
   <script src="js/verify.js"></script>
+  <!-- Hotjar Tracking Code for http://against-malaria.pagedemo.co/ -->
+  <script>
+    (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:918453,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
 </head>
 <body>
   <div id="container">
@@ -19,17 +30,24 @@
         <h2>Click on the mosquitoes to pop them</h2>
       </div>
     </div>
-    <img src="assets/m1.png" alt="mosquito" class="mosquito a dot">
-    <img src="assets/m2.png" alt="mosquito" class="mosquito b dot">
-    <img src="assets/m3.png" alt="mosquito" class="mosquito c dot">
-    <img src="assets/m4.png" alt="mosquito" class="mosquito d dot">
-    <img src="assets/m5.png" alt="mosquito" class="mosquito e dot">
+    <ul>
+      <li><img src="assets/m1.png" alt="mosquito" class="mosquito a dot"></li>
+      <li><img src="assets/m2.png" alt="mosquito" class="mosquito b dot"></li>
+      <li><img src="assets/m3.png" alt="mosquito" class="mosquito c dot"></li>
+      <li><img src="assets/m4.png" alt="mosquito" class="mosquito d dot"></li>
+      <li><img src="assets/m5.png" alt="mosquito" class="mosquito e dot"></li>
+      <li><img src="assets/m1.png" alt="mosquito" class="mosquito f dot"></li>
+      <li><img src="assets/m2.png" alt="mosquito" class="mosquito g dot"></li>
+      <li><img src="assets/m3.png" alt="mosquito" class="mosquito h dot"></li>
+      <li><img src="assets/m4.png" alt="mosquito" class="mosquito i dot"></li>
+      <li><img src="assets/m5.png" alt="mosquito" class="mosquito j dot"></li>
+    </ul>
   </div>
 
   <div class="message hidden" id="lost">
     <div class="alert">
       <div class="over">GAME OVER 💀</div>
-      You didn't kill all the mosquitoes on time
+      Malaria wins !
     </div>
   </div>
 

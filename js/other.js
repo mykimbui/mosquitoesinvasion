@@ -4,6 +4,11 @@ $(document).ready(function() {
   animateDiv($('.c'));
   animateDiv($('.d'));
   animateDiv($('.e'));
+  animateDiv($('.f'));
+  animateDiv($('.g'));
+  animateDiv($('.h'));
+  animateDiv($('.i'));
+  animateDiv($('.j'));
 });
 
 function makeNewPosition($container) {
