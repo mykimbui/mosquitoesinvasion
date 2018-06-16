@@ -1,17 +1,19 @@
-var COUNT_START = 10*10*15; // tenths * seconds * hours
+document.addEventListener("DOMContentLoaded", function(event) {
+
+var COUNT_START = 10*01*15; // tenths * seconds * hours
 var count = COUNT_START;
 var playing = true;
 
 function countdown(){
-    displayTime();
-    if (count == 0) {
-      playing = false;
-    } else if (playing) {
-      setTimeout(countdown, 100);
-      count--;
-    } else {
-      setTimeout(countdown, 100);
-    }
+  displayTime();
+  if (count == 0) {
+    playing = false;
+  } else if (playing) {
+    setTimeout(countdown, 100);
+    count--;
+  } else {
+    setTimeout(countdown, 100);
+  }
 }
 countdown();
 
@@ -34,3 +36,4 @@ function displayTime() {
 function LeadingZero(Time) {
   return (Time < 10) ? "0" + Time : + Time;
 }
+});
