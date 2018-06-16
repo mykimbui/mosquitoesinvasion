@@ -12,6 +12,7 @@ html {
 body.no {
   overflow-x: hidden !important;
   overflow-y: hidden !important;
+  position: fixed;
 }
 
 body {
