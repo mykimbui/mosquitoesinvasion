@@ -13,7 +13,7 @@ $(document).ready(function() {
   animateDiv($('.m'));
   animateDiv($('.n'));
   animateDiv($('.o'));
-  animateDiv($('.p'));
+  animateDiv($('.j'));
 });
 
 function makeNewPosition($container) {
