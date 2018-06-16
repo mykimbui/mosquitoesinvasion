@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:800');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+html {
+  height:100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height:100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-image: url("assets/bg2.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Nanum Gothic', sans-serif;
+  text-align: center;
+  cursor: url(assets/swatter.png), auto;
+}
+
+h1 {
+  background-color: white;
+  color: red;
+  padding: 10px;
+}
+
+h2 {
+  background-color: white;
+  color: red;
+  padding: 5px;
+  font-size: 15px;
+}
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  font-family: 'Roboto Mono', monospace;
+  color: red;
+  padding: 10px;
+  font-size: 50px;
+  position: absolute;
+  top:0;
+}
+
+#container {
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+.dot {
+  position: absolute;
+  top: 0;
+  width: 200px;
+  animation-name: annoy;
+  animation-duration: 6s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.title {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
