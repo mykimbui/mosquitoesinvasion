@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="HandheldFriendly" content="true" />
   <link rel="stylesheet" href="index.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
@@ -23,44 +24,46 @@
   </script>
 </head>
 <body>
-  <div id="container">
-    <p id="time_left"></p>
-    <div class="title">
-      <div>
-        <h1>Can you kill all the mosquitoes?</h1>
-        <h2>Click on the mosquitoes to pop them</h2>
+  <div class="no">
+    <div id="container">
+      <p id="time_left"></p>
+      <div class="title">
+        <div>
+          <h1>Can you kill all the mosquitoes?</h1>
+          <h2>Click on the mosquitoes to pop them</h2>
+        </div>
+      </div>
+      <ul>
+        <li><img src="assets/m1.png" alt="mosquito" class="mosquito a dot"></li>
+        <li><img src="assets/m2.png" alt="mosquito" class="mosquito b dot"></li>
+        <li><img src="assets/m3.png" alt="mosquito" class="mosquito c dot"></li>
+        <li><img src="assets/m4.png" alt="mosquito" class="mosquito d dot"></li>
+        <li><img src="assets/m5.png" alt="mosquito" class="mosquito e dot"></li>
+        <li><img src="assets/m1.png" alt="mosquito" class="mosquito f dot"></li>
+        <li><img src="assets/m2.png" alt="mosquito" class="mosquito g dot"></li>
+        <li><img src="assets/m3.png" alt="mosquito" class="mosquito h dot"></li>
+        <li><img src="assets/m4.png" alt="mosquito" class="mosquito i dot"></li>
+        <li><img src="assets/m5.png" alt="mosquito" class="mosquito j dot"></li>
+        <li><img src="assets/m1.png" alt="mosquito" class="mosquito k dot"></li>
+        <li><img src="assets/m2.png" alt="mosquito" class="mosquito l dot"></li>
+        <li><img src="assets/m3.png" alt="mosquito" class="mosquito m dot"></li>
+        <li><img src="assets/m4.png" alt="mosquito" class="mosquito n dot"></li>
+        <li><img src="assets/m5.png" alt="mosquito" class="mosquito o dot"></li>
+      </ul>
+    </div>
+
+    <div class="message hidden" id="lost">
+      <div class="alert">
+        <div class="over">GAME OVER 💀</div>
+        Malaria wins !
       </div>
     </div>
-    <ul>
-      <li><img src="assets/m1.png" alt="mosquito" class="mosquito a dot"></li>
-      <li><img src="assets/m2.png" alt="mosquito" class="mosquito b dot"></li>
-      <li><img src="assets/m3.png" alt="mosquito" class="mosquito c dot"></li>
-      <li><img src="assets/m4.png" alt="mosquito" class="mosquito d dot"></li>
-      <li><img src="assets/m5.png" alt="mosquito" class="mosquito e dot"></li>
-      <li><img src="assets/m1.png" alt="mosquito" class="mosquito f dot"></li>
-      <li><img src="assets/m2.png" alt="mosquito" class="mosquito g dot"></li>
-      <li><img src="assets/m3.png" alt="mosquito" class="mosquito h dot"></li>
-      <li><img src="assets/m4.png" alt="mosquito" class="mosquito i dot"></li>
-      <li><img src="assets/m5.png" alt="mosquito" class="mosquito j dot"></li>
-      <li><img src="assets/m1.png" alt="mosquito" class="mosquito k dot"></li>
-      <li><img src="assets/m2.png" alt="mosquito" class="mosquito l dot"></li>
-      <li><img src="assets/m3.png" alt="mosquito" class="mosquito m dot"></li>
-      <li><img src="assets/m4.png" alt="mosquito" class="mosquito n dot"></li>
-      <li><img src="assets/m5.png" alt="mosquito" class="mosquito o dot"></li>
-    </ul>
-  </div>
 
-  <div class="message hidden" id="lost">
-    <div class="alert">
-      <div class="over">GAME OVER 💀</div>
-      Malaria wins !
-    </div>
-  </div>
-
-  <div class="message hidden" id="win">
-    <div class="alert">
-      <div class="over">CONGRATULATIONS  🎉</div>
-      You killed them all !
+    <div class="message hidden" id="win">
+      <div class="alert">
+        <div class="over">CONGRATULATIONS  🎉</div>
+        You killed them all !
+      </div>
     </div>
   </div>
 
