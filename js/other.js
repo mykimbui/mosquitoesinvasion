@@ -8,7 +8,12 @@ $(document).ready(function() {
   animateDiv($('.g'));
   animateDiv($('.h'));
   animateDiv($('.i'));
-  animateDiv($('.j'));
+  animateDiv($('.k'));
+  animateDiv($('.l'));
+  animateDiv($('.m'));
+  animateDiv($('.n'));
+  animateDiv($('.o'));
+  animateDiv($('.p'));
 });
 
 function makeNewPosition($container) {
