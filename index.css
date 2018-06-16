@@ -7,13 +7,12 @@ html {
   padding: 0px;
 /*  overflow: hidden;
 */}
-
+/*
 body.no {
-  overflow: hidden;
+  overflow-x: hidden;
   position: fixed;
-  height: 100vh;
 }
-
+*/
 body {
   height:100%;
   margin: 0px;
