@@ -74,3 +74,26 @@ p {
   align-items: center;
   justify-content: center;
 }
+
+.message {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+
+}
+
+.alert {
+  color: black;
+  background-color: white;
+  font-size: 20px;
+  padding: 60px;
+}
+
+.over {
+  font-size: 50px;
+  padding-bottom: 10px;
+}

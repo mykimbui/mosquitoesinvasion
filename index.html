@@ -8,6 +8,7 @@
   <script src="js/other.js"></script>
   <script src="js/disappear.js"></script>
   <script src="js/timer.js"></script>
+  <script src="js/verify.js"></script>
 </head>
 <body>
   <div id="container">
@@ -24,5 +25,20 @@
     <img src="assets/m4.png" alt="mosquito" class="mosquito d dot">
     <img src="assets/m5.png" alt="mosquito" class="mosquito e dot">
   </div>
+
+  <div class="message hidden" id="lost">
+    <div class="alert">
+      <div class="over">GAME OVER 💀</div>
+      You didn't kill all the mosquitoes on time
+    </div>
+  </div>
+
+  <div class="message hidden" id="win">
+    <div class="alert">
+      <div class="over">CONGRATULATIONS  🎉</div>
+      You killed them all !
+    </div>
+  </div>
+
 </body>
 </html>

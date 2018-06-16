@@ -7,4 +7,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
       this.classList.add("hidden");
     });
   });
+
 });

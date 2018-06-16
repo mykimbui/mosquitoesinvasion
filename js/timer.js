@@ -3,11 +3,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
 var COUNT_START = 10*01*15; // tenths * seconds * hours
 var count = COUNT_START;
 var playing = true;
+var lost = document.getElementById('lost');
 
 function countdown(){
   displayTime();
   if (count == 0) {
     playing = false;
+    lost.classList.remove('hidden');
+    window.location = "http://against-malaria.pagedemo.co/";
   } else if (playing) {
     setTimeout(countdown, 100);
     count--;
